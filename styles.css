@@ -1,0 +1,91 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    background-color: aliceblue;
+    margin: 100px;
+    margin-top: 10px;
+}
+.hero-image{
+    background-image: url(images/Screenshot\ 2022-11-03\ 143111.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    color: aliceblue;
+    font-size:xx-large;
+    margin-bottom: 100px;
+}
+li{
+    list-style-type: none;
+}
+.header li{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    color:aliceblue;
+}
+.header{
+    background-color: rgb(133, 209, 71);
+   
+}
+.hero-text{
+    position: absolute;
+    top:35%;
+    left:45%;
+}
+button{
+    background-color: aqua;
+    border: 0px;
+}
+button:hover{
+    background-color:  rgb(133, 209, 71);
+}
+.date{
+    display: flex;
+    border: 1px solid;
+    margin: auto;
+    justify-content: center;
+    background-color:lightgray;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.grid-item-1{
+    padding: 100px 10px 50px 40px;;
+}
+.grid-item-2{
+    padding: 150px 10px 50px 40px;
+}
+.grid-item-3{
+    padding:200px;
+}
+.grid-item-4{
+    padding: 50px;
+}
+.grid-item-5{
+    padding: 150px 10px 50px 40px;
+}
+.grid-item-6{
+    padding: 200px;
+}
+.grid-item-7{
+    padding:50px;
+}
+.grid-item-8{
+    padding:150px 10px 50px 40px;
+}
+.grid-item-9{
+    padding: 200px;
+}
+.grid-item-10{
+    padding:50px;
+}
+.grid-item-11{
+    padding: 150px 10px 50px 40px;
+}
+.grid-item-12{
+    padding:200px;
+}
