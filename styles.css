@@ -5,87 +5,123 @@
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 2fr 2fr 2fr 2fr;
-    background-color: aliceblue;
+    background-color: #2E4172;
     margin: 100px;
     margin-top: 10px;
 }
 .hero-image{
     background-image: url(images/Screenshot\ 2022-11-03\ 143111.jpg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height:700px;
     color: aliceblue;
-    font-size:xx-large;
-    margin-bottom: 100px;
+    font-size: xx-large;
+    margin-bottom:20px;
+    display:flex;
+    justify-content: center; 
 }
 li{
     list-style-type: none;
+    color: aliceblue;
 }
 .header li{
-    display: inline-flex;
-    justify-content: space-between;
-    padding-right: 150px;
     color:aliceblue;
 }
+a{
+    color: beige;
+}
 .header{
-    background-color: rgb(133, 209, 71);
-   
+    background-color: #2E4172; 
+    padding:20px;
+}
+.header-content{
+    display:flex;
+    justify-content:space-between;
+    padding-right: 30px;
+
 }
 .hero-text{
-    position: absolute;
-    top:35%;
-    left:45%;
+    align-self: center;
+    font-size: 400%;
 }
 button{
-    background-color: aqua;
-    border: 0px;
+    background-color: #4361A6;
+    padding:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px solid;
 }
 button:hover{
     background-color:  rgb(133, 209, 71);
 }
 .date{
     display: flex;
-    border: 1px solid;
-    margin: auto;
+    border: 6px solid lightgrey;
     justify-content: center;
-    background-color:lightgray;
-    margin-left: 30%;
-    margin-right: 30%;
+    background-color:#4361A6;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: aliceblue;
+}
+.grid-space{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 0px;
 }
 .grid-item-1{
-    padding: 100px 10px 50px 40px;;
+    display:flex;
 }
+
 .grid-item-2{
+    display: flex;
+    justify-content: center;
     padding: 150px 10px 50px 40px;
 }
 .grid-item-3{
+    display: flex;
+    justify-content: center;
     padding:200px;
 }
 .grid-item-4{
+    display: flex;
     padding: 50px;
 }
 .grid-item-5{
+    display: flex;
+    justify-content: center;
     padding: 150px 10px 50px 40px;
 }
 .grid-item-6{
     padding: 200px;
 }
 .grid-item-7{
+    display: flex;
     padding:50px;
 }
 .grid-item-8{
+    display: flex;
+    justify-content: center;
     padding:150px 10px 50px 40px;
 }
 .grid-item-9{
     padding: 200px;
+    justify-content: center;
 }
 .grid-item-10{
+    display: flex;
     padding:50px;
 }
 .grid-item-11{
+    display: flex;
+    justify-content: center;
     padding: 150px 10px 50px 40px;
 }
 .grid-item-12{
     padding:200px;
+    justify-content: center;
+}
+.image{
+   margin: auto;
 }
